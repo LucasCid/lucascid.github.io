@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/estilo.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>LC</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#trabajos">Proyectos</a>
+                        <a href="#sobremi">Sobre Mí</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://www.instagram.com/lucascidd/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/LucasCid"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.facebook.com/lucas.cid.7758"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col col1">
+                        <h2><span>Lucas Cid</span><br> Desarrollador Frontend</h2>
+                        <div class="img-div">
+                        <img src="/img/html.png" alt="">
+                        <img src="/img/css.png" alt="">
+                        <img src="/img/bootstrap.png" alt="">
+                        <img src="/img/astro.png" alt="">
+                        <img src="/img/js.png" alt="">
+                        <img src="/img/react.png" alt="">
+                        <img src="/img/git.png" alt="">
+                        </div>
+                        <button class="btn btn-1"><a target="_blank"  href="/CV/index.html" >Descargar CV</a></button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/trabajo1.png" alt="">
+                <div class="info">
+                    <h3>Limonada Mexican</h3>
+                    <span>HTML</span><span>CSS</span><a target="_blank" href="/indexlemonade.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo2.0.png" alt="">
+                <div class="info">
+                    <h3>To do List</h3>
+                    <span>HTML</span><span>CSS</span><span>Javascript</span>
+                    <a target="_blank" href="/proyectos/lista-tareas/index.html">Ver Trabajo</a>
+                </div>
+            </div>
+            
+            <div class="item disenio">
+                <img src="img/trabajo4.png" alt="">
+                <div class="info">
+                    <h3>Tienda de Relojes</h3>
+                    <span>HTML</span><span>CSS</span><span>Javascript</span>
+                    <a target="_blank" href="/proyectos/relojes-carritocompras/index.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo6.png" alt="">
+                <div class="info">
+                    <h3>Juego de Memoria</h3>
+                    <span>HTML</span><span>CSS</span><span>Javascript</span>
+                    <a  target="_blank" href="/proyectos/juego-basico/index.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/trabajo7.png" alt="">
+                <div class="info">
+                    <h3>Astro Web</h3>
+                    <span>HTML</span><span>CSS</span>
+                    <a target="_blank" href="/proyectos/astro-web/index.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo9.png" alt="">
+                <div class="info">
+                    <h3>Weather App</h3>
+                    <span>HTML</span><span>CSS</span><span>Javascript</span><span>ReactJs</span>
+                    <a target="_blank" href="">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección sobre Mí -->
+     
+    <section class="sobre-mí">
+        <div class="title">
+            <h1 id="sobremi">Sobre mí</h1>
+        </div>
+        <div class="img-sobremi">
+            <img src="/img/sobremí.jpg" alt="">
+            <p class="p-sobremi">Hola &#128075; soy Lucas Cid, Comencé mi camino en el mundo digital hace 2 años cuando inicié en la carrera de <span>Analista Programador.</span> En mis tiempos libres, mientras cursaba la carrera estudiaba de forma Autodidacta todo lo que es el <span>FrontEnd.</span> Fue durante estos estudios cuando descubrí mi verdadera pasión: la creación de sitios web. Decidí profundizar en este campo y actualmente me he especializado en tecnologías como <span>HTML, CSS, JavaScript, ReactJS, GitHub</span> y un poco de <span>Node.js.</span> Me apasiona lo que hago y estoy emocionado por seguir explorando nuevas tecnologías y seguir especializandome en el campo del desarrollo web.</p>
+        </div>
+    </section>
+    
+    
+    <!-- sección contacto -->
+    <div id="contacto" class="contacto">
+    <form id="form" class="form" action="https://formspree.io/f/mayrjbrp"
+    method="POST">
+        <div class="form_container">
+            <h2 class="form_title">Contáctame</h2>
+
+            <input id="name" type="text" class="form_input" placeholder="Nombre:" name="name" required>
+
+            <input id="email" type="email" class="form_input" placeholder="Email:" name="email" required>
+
+            <textarea id="message" class="form_input form_input--message" placeholder="Mensaje:" name="message" required></textarea>
+
+            <input type="submit" value="Enviar" class="form_cta">
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+    </div>
+
+    <footer>
+        <div class="icons">
+        <a href="https://www.instagram.com/lucascidd/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/LucasCid"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.facebook.com/lucas.cid.7758"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <p>&#169;​ 2024 LucasCid</p>
+    </footer>
+
+
+    <script src="/scripts/app.js"></script>
+</body>
+</html>
+
+
