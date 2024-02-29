@@ -563,4 +563,8 @@ footer {
         margin-left: 0;
     }
 
+    .img-div{
+        display: none;
+    }
+
 }
