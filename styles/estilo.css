@@ -547,6 +547,10 @@ footer {
     .col1{
         margin-left: 0;
     }
+
+    .img-div{
+        display: none;
+    }
     
 }
 
