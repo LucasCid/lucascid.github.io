@@ -442,9 +442,18 @@ footer {
 }
 
 .img-sobremi{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     img{
+        border-radius: 50%;
         width: auto;
-        margin: auto;
+        height: auto;
+        padding-bottom: 1.5rem;
+        filter: drop-shadow(0em 0px 7px #1182c9);
     }
 }
 
@@ -456,10 +465,13 @@ footer {
     }
 }
 
-.col1 h2{
-    span{
-        color: #ffca67;
-    }
+.col h2 span{
+    color: #ffcf67;
+}
+
+.col button a{
+    text-decoration: none;
+    color: #fff;
 }
 
     #inicio header nav a {
@@ -593,9 +605,18 @@ footer {
     }
     
     .img-sobremi{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         img{
+            border-radius: 50%;
             width: auto;
-            margin: auto;
+            height: auto;
+            padding-bottom: 1.5rem;
+            filter: drop-shadow(0em 0px 7px #1182c9);
         }
     }
     
@@ -607,10 +628,13 @@ footer {
         }
     }
     
-    .col1 h2{
-        span{
-            color: #ffca67;
-        }
+    .col h2 span{
+        color: #ffcf67;
+    }
+    
+    .col button a{
+        text-decoration: none;
+        color: #fff;
     }
     
     .form{
