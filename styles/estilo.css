@@ -442,7 +442,7 @@ footer {
         text-decoration: none;
     }
 
-    .img-sobremi{
+    /* .img-sobremi{
         img{
             width: auto;
             margin: auto;
@@ -455,7 +455,7 @@ footer {
             color: #e4e28d;
             font-weight: 300;
         }
-    }
+    } */
    
     .redes {
         display: none;
@@ -504,6 +504,12 @@ footer {
 
     .inicio .fila .col h2 {
         margin-top: 20px;
+    }
+
+    .col1 h2{
+        span{
+            color: #ffc267;
+        }
     }
 
     .inicio .fila .col .contenedor-img {
@@ -630,6 +636,12 @@ footer {
         span{
             color: #e4e28d;
             font-weight: 300;
+        }
+    }
+
+    .col1 h2{
+        span{
+            color: #ffc267;
         }
     }
    
