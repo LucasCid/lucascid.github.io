@@ -436,6 +436,16 @@ footer {
     }
 }
 
+.imagensobremi{
+    display: block;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    padding-bottom: 1.5rem;
+    filter: drop-shadow(0em 0px 7px #1182c9);
+}
+
 @media screen and (max-width:800px) {
 /* -------------IMPORTANTE------------------ */
 .img-div{
@@ -456,7 +466,13 @@ footer {
 }
 
 .imagensobremi{
-    display: none;
+    display: block;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    padding-bottom: 1.5rem;
+    filter: drop-shadow(0em 0px 7px #1182c9);
 }
 
 
@@ -622,7 +638,13 @@ footer {
     }
 
     .imagensobremi{
-            display: none;
+        display: block;
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
+        margin: auto;
+        padding-bottom: 1.5rem;
+        filter: drop-shadow(0em 0px 7px #1182c9);
     }
     
     .p-sobremi{
