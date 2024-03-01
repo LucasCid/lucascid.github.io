@@ -452,8 +452,9 @@ footer {
 
 .imagensobremi{
     border-radius: 50%;
-    width: 30%;
-    height: 30%;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
     padding-bottom: 1.5rem;
     filter: drop-shadow(0em 0px 7px #1182c9);
 }
@@ -618,8 +619,9 @@ footer {
 
     .imagensobremi{
             border-radius: 50%;
-            width: 30%;
-            height: 30%;
+            width: 5rem;
+            height: 5rem;
+            margin: auto;
             padding-bottom: 1.5rem;
             filter: drop-shadow(0em 0px 7px #1182c9);
     }
