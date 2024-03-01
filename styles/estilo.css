@@ -299,6 +299,7 @@ body {
     }
     
     .imagensobremi{
+        display: block;
         border-radius: 50%;
         width: 28rem;
         height: 28rem;
@@ -448,6 +449,10 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    img{
+        display: none;
+    }
 }
 
 .imagensobremi{
@@ -609,6 +614,10 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+        img{
+            display: none;
+        }
        
     }
 
