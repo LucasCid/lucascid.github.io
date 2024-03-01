@@ -589,9 +589,7 @@ footer {
 @media (max-width:450px){
 
     .img-div{
-        img{
-            width: 0.3rem;
-        }
+        display: none;
     }
     
     .img-sobremi{
@@ -602,7 +600,7 @@ footer {
     }
     
     .p-sobremi{
-        color: #fff;
+        color: #ffffff;
         span{
             color: #e4e28d;
             font-weight: 300;
@@ -611,9 +609,10 @@ footer {
     
     .col1 h2{
         span{
-            color: #ffc267;
+            color: #ffca67;
         }
     }
+    
     .form{
         padding: 3.5em 1em;
     }
